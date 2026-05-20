@@ -1,0 +1,30 @@
+============================================================ CONSULTA
+#[numero] Etapa del proyecto: [Etapa 1] Fecha:
+[20/05/2026] ------------------------------------------------------------
+PROMPT ENVIADO A COPILOT: [Necesito una estructura simple con navbar, seccion hero, seccion servicios,
+seccion amrcas y dispositivos atendidos, seccion tablas referenciales de precios,
+secciond e testimonios de clientes y un footer, solo necesito la estructura, yo acomodaré lo del
+contenido de cada seccion. y en style creare los estilos.] ------------------------------------------------------------
+RESPUESTA RECIBIDA (resumen breve): [Copilot me generó el codigo de la estructura de la pagina web con la secciones Que
+le solicité. ] ----------------------------------------------------------
+-- USO EN EL PROYECTO: [la respeusta la copie y pegué tal cual, probé si cumplia con lo que encesitaba y la modifiqué
+a mi gusto, segun lo que se me solicitaba en cada seccion.] ------------------------------------------------------
+------ REFLEXION PERSONAL: [Escribir con tus propias palabras: si fue util porque me ayudó
+a generar la estructura principal de la pagina web, con todo lo que necesitaba, agilizando el proceso.]
+============================================================
+
+============================================================ CONSULTA
+#[numero] Etapa del proyecto: [Etapa 1] Fecha:
+[20/05/2026] ------------------------------------------------------------
+PROMPT ENVIADO A COPILOT: [Necesito un ejemplo de código para implementar una sección de testimonios en HTML.
+ Cada testimonio debe incluir el nombre del cliente, el tipo de servicio recibido, el comentario y una calificación
+  en estrellas. No necesito estilos, solo la estructura básica en HTML.] ------------------------------------------------------------
+RESPUESTA RECIBIDA (resumen breve): [Copilot generó un ejemplo de código HTML con la estructura de la 
+sección de testimonios,
+ incluyendo los elementos solicitados.] ----------------------------------------------------------
+-- USO EN EL PROYECTO: [Utilicé el código como base para la sección de testimonios, ajustando los nombres, comentarios y 
+calificaciones según los requerimientos del proyecto.] ------------------------------------------------------
+------ REFLEXION PERSONAL: [Fue útil porque me permitió ahorrar tiempo al generar una sección funcional y bien estructurada,
+ que luego personalicé según las necesidades del proyecto.] 
+============================================================
+
