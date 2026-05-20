@@ -30,6 +30,28 @@ TechFix es una empresa profesional dedicada a la reparación y mantenimiento de 
 7. **Footer**:
    - Información de contacto, horarios de atención, redes sociales y derechos de autor.
 
-## Próximos Pasos
-- Implementar estilos avanzados en el archivo `style.css`.
-- Crear la página `ingreso.html` para el formulario de ingreso de equipos (Etapa 2).
+## Estilos Implementados (style.css)
+En esta etapa, se definieron los estilos básicos para la página web, incluyendo:
+
+1. **Paleta de Colores**:
+   - Se utilizaron colores que transmiten tecnología y confianza: azul oscuro, gris claro, blanco y un color de acento (azul brillante). Estos colores se definieron como variables CSS para facilitar su uso.
+
+2. **Tipografías**:
+   - Se implementaron dos tipografías de Google Fonts:
+     - `Montserrat` para los títulos, con un estilo moderno.
+     - `Roboto` para el cuerpo del texto, priorizando la legibilidad.
+
+3. **Efectos en Tarjetas**:
+   - Las tarjetas de servicios tienen un efecto hover con una transición suave, que incluye elevación y sombra.
+
+4. **Tabla de Precios**:
+   - Se diseñó con una cabecera de color, filas alternadas con fondo diferente y bordes definidos para mejorar la legibilidad.
+
+5. **Diseño Responsivo**:
+   - El sitio se adapta a pantallas móviles:
+     - Las secciones de servicios y testimonios se apilan en una sola columna.
+     - La tabla de precios es desplazable horizontalmente si no cabe en la pantalla.
+
+Estos estilos aseguran un diseño moderno, funcional y adaptable a diferentes dispositivos.
+
+

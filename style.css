@@ -1,0 +1,159 @@
+/* Variables de colores */
+:root {
+    --color-primario: #003366; /* Azul oscuro */
+    --color-secundario: #f0f0f0; /* Gris claro */
+    --color-acento: #007BFF; /* Azul brillante */
+    --color-texto: #333; /* Gris oscuro */
+    --color-blanco: #ffffff;
+}
+
+/* Tipografías */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@600&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-texto);
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-secundario);
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-primario);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-acento);
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: var(--color-blanco);
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    color: var(--color-blanco);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero .btn {
+    background-color: var(--color-acento);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: var(--color-blanco);
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: var(--color-primario);
+}
+
+/* Servicios */
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.service-card {
+    background-color: var(--color-blanco);
+    border: 1px solid var(--color-secundario);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Tabla de precios */
+.table-prices {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.table-prices th {
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    padding: 10px;
+}
+
+.table-prices td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid var(--color-secundario);
+}
+
+.table-prices tr:nth-child(even) {
+    background-color: var(--color-secundario);
+}
+
+/* Testimonios */
+.testimonials-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.testimonial-card {
+    background-color: var(--color-blanco);
+    border: 1px solid var(--color-secundario);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: var(--color-acento);
+    margin: 0 5px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .services-container, .testimonials-container {
+        grid-template-columns: 1fr;
+    }
+
+    .table-prices {
+        display: block;
+        overflow-x: auto;
+    }
+}

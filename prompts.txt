@@ -7,8 +7,9 @@ secciond e testimonios de clientes y un footer, solo necesito la estructura, yo 
 contenido de cada seccion. y en style creare los estilos.] ------------------------------------------------------------
 RESPUESTA RECIBIDA (resumen breve): [Copilot me generó el codigo de la estructura de la pagina web con la secciones Que
 le solicité. ] ----------------------------------------------------------
--- USO EN EL PROYECTO: [la respeusta la copie y pegué tal cual, probé si cumplia con lo que encesitaba y la modifiqué
-a mi gusto, segun lo que se me solicitaba en cada seccion.] ------------------------------------------------------
+-- USO EN EL PROYECTO: [la respeusta la copie y pegué tal cual, probé si cumplia con lo que necesitaba y la modifiqué
+a mi gusto, segun lo que se me solicitaba en cada seccion, lo que cambie, fue la seccion de testimonios
+ya que no me convenció la estructura que me dio.] ------------------------------------------------------
 ------ REFLEXION PERSONAL: [Escribir con tus propias palabras: si fue util porque me ayudó
 a generar la estructura principal de la pagina web, con todo lo que necesitaba, agilizando el proceso.]
 ============================================================
